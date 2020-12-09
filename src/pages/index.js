@@ -33,22 +33,28 @@ const IndexPage = () => (
       <div className="row">
         <div className="col-xs-6 col-lg-3 text-center">
             <img src="/digitalPresence.svg" alt="" className="img-fluid"/>
-            <h5>Improve your <span className="yellow">Digital Presence</span></h5>
+            <h5>Improve your<br/><span className="yellow">Digital Presence</span></h5>
         </div>
         <div className="col-xs-6 col-lg-3 text-center">
             <img src="/idealBuyer.svg" alt="" className="img-fluid"/>
-            <h5>Connect with your <span className="yellow">Ideal Buyer</span></h5>
+            <h5>Connect with your<br/><span className="yellow">Ideal Buyer</span></h5>
         </div>
         <div className="col-xs-6 col-lg-3 text-center">
             <img src="/digitalImpact.svg" alt="" className="img-fluid"/>
-            <h5>Analyze your <span className="yellow">Digital Impact</span></h5>
+            <h5>Analyze your<br/><span className="yellow">Digital Impact</span></h5>
         </div>
         <div className="col-xs-6 col-lg-3 text-center">
             <img src="/marketingStrategy.svg" alt="" className="img-fluid"/>
-            <h5>Build your <span className="yellow">Marketing Stategy</span></h5>
+            <h5>Build your<br/><span className="yellow">Marketing Stategy</span></h5>
         </div>                        
       </div>
-
+      <div className="row mt-3">
+        <div className="col-xs-12 col-lg-6">
+        <p className="text-justify">
+          Ex eiusmod eiusmod do et Lorem minim deserunt. Esse eu ad nisi do. Sit do et fugiat consequat ullamco minim.
+        </p>
+        </div>
+      </div>
       <div className="mt-3">
         <div className="row">
           <div className="col-xs-12 col-lg-12 text-center">

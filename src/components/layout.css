@@ -11,10 +11,19 @@
 .yellow{
   color:#f0c420!important;
 }
-
+.yellowHover{
+  color: inherit!important;
+}
 .yellowBtn{
   background-color: #f0c420!important;
   color:#ffffff!important;
+  transition: background-color 0.5s;
+}
+.yellowBtn{
+  background-color: #C59B01;
+}
+.yellowHover:hover{
+  color: #f0c420!important;
 }
 .darkYellowBtn{
   background-color: #C59B01!important;
@@ -23,4 +32,7 @@
 }
 .nav-item:hover{
   text-decoration: underline!important;
+}
+.blueBg{
+  background-color: #273238!important;
 }
