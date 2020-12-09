@@ -2,12 +2,11 @@ import React from "react"
 import { Link } from "gatsby"
 
 import Layout from "../components/layout"
-import Image from "../components/image"
 import SEO from "../components/seo"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" />
+    <SEO title="Inicio" />
     <div className="mt-3">
     <div className="row">
       <div className="col-xs-12 col-lg-6">
@@ -31,19 +30,19 @@ const IndexPage = () => (
         </div>
       </div>
       <div className="row">
-        <div className="col-xs-6 col-lg-3 text-center">
+        <div className="col-xs-6 col-sm-6 col-lg-3 text-center">
             <img src="/digitalPresence.svg" alt="" className="img-fluid"/>
             <h5>Improve your<br/><span className="yellow">Digital Presence</span></h5>
         </div>
-        <div className="col-xs-6 col-lg-3 text-center">
+        <div className="col-xs-6 col-sm-6 col-lg-3 text-center">
             <img src="/idealBuyer.svg" alt="" className="img-fluid"/>
             <h5>Connect with your<br/><span className="yellow">Ideal Buyer</span></h5>
         </div>
-        <div className="col-xs-6 col-lg-3 text-center">
+        <div className="col-xs-6 col-sm-6 col-lg-3 text-center">
             <img src="/digitalImpact.svg" alt="" className="img-fluid"/>
             <h5>Analyze your<br/><span className="yellow">Digital Impact</span></h5>
         </div>
-        <div className="col-xs-6 col-lg-3 text-center">
+        <div className="col-xs-6 col-sm-6 col-lg-3 text-center">
             <img src="/marketingStrategy.svg" alt="" className="img-fluid"/>
             <h5>Build your<br/><span className="yellow">Marketing Stategy</span></h5>
         </div>                        
@@ -58,7 +57,9 @@ const IndexPage = () => (
       <div className="mt-3">
         <div className="row">
           <div className="col-xs-12 col-lg-12 text-center">
-            <button className="btn yellowBtn text-white">How does it works?</button>
+            <Link to="/services">
+              <button className="btn yellowBtn text-white">How does it works?</button>            
+            </Link>
           </div>
         </div>
       </div>

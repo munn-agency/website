@@ -16,19 +16,19 @@ const Header = () => (
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item active">
-            <Link class="nav-link yellowHover lato" to="">Home <span class="sr-only">(current)</span></Link>
+            <Link class="nav-link yellowHover lato" to="/">Home <span class="sr-only">(current)</span></Link>
           </li>
           <li class="nav-item">
-            <Link class="nav-link yellowHover lato" to="">Servicies</Link>
+            <Link class="nav-link yellowHover lato" to="/services">Services</Link>
           </li>
           <li class="nav-item">
-            <Link class="nav-link yellowHover lato" to="">About Us</Link>
+            <Link class="nav-link yellowHover lato" to="/about-us">About Us</Link>
           </li>
           <li class="nav-item">
-            <Link class="nav-link yellowHover lato" to="">Contact</Link>
+            <Link class="nav-link yellowHover lato" to="/contact">Contact</Link>
           </li>
           <li class="nav-item">
-            <Link class="nav-link yellowHover lato" to="">Blog</Link>
+            <Link class="nav-link yellowHover lato" to="/blog">Blog</Link>
           </li>          
         </ul>
       </div>

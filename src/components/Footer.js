@@ -1,11 +1,11 @@
 import React from "react"
 const Footer = () => {
     return(
-        <div className="blueBg mt-5">
+        <div className="blueBg ">
             <div className="container">
-                <div className="row d-flex align-items-center">
+                <div className="row d-flex align-items-center mt-5">
                     <div className="col-xs-12 col-lg-6">
-                        <h1 className="yellow">munn.</h1>
+                        <h1 className="yellow ">munn.</h1>
                         <p className="text-left yellow">
                             Suscribe to our newsletter and get tips to improve your impact in the digital ecosystem. 
                         </p>
