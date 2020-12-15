@@ -12,8 +12,8 @@ const IndexPage = () => (
     <div className="row">
       <div className="col-xs-12 col-lg-6">
         <h1 className="">In <span className="yellow">Data</span> we <span className="yellow">Trust</span></h1>
-        <h3>Grow your bussines with the combining <span className="yellow">Artificial Intelligence</span> and <span className="yellow">Digital Marketing.</span> </h3>
-        <h4 className="yellow">Cooming Soon</h4>
+        <h3>Grow your bussines with <span className="yellow">Artificial Intelligence</span> and <span className="yellow">Digital Marketing.</span> </h3>
+        <h2 className="yellow mt-5">Cooming Soon</h2>
       </div>
       <div className="col-xs-12 col-lg-6 text-center">
         <img src="/visualData.svg" alt="" className="img-fluid"/>
